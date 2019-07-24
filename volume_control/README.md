@@ -10,6 +10,7 @@ sudo pacman -S xbindkeys
 ```
 ## Needed Lines
 ```
+# Place this in ~/.xbindkeysrc
 # Mute Toggle
 "amixer set Master toggle"
 	m:0x0 + c:121
@@ -22,6 +23,7 @@ sudo pacman -S xbindkeys
 ```
 ## Reload Key Configuration
 ```
+# Place this in ~/.bash_profile
 xbindkeys --poll-rc
 ```
 ## Helpful Program
