@@ -10,6 +10,7 @@ sudo pacman -S xbindkeys
 ```
 ## Needed Lines
 ```
+# Place this in ~/.xbindkeysrc
 # Mute Toggle
 "amixer set Master toggle"
 	m:0x0 + c:121
